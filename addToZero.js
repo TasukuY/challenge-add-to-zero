@@ -1,5 +1,5 @@
 // Starting array
-let array = [0, 21, 33, 6, -9, 0];
+let array = [0, 21, 33, 6, -9];
 
 // Write your solution below:
 let addToZero = false;
@@ -27,9 +27,7 @@ for(let i = 0; i < array.length; i++){
     }
 }
 
-if(!addToZero){
-    console.log("False...");
-}
+console.log(addToZero);
 
 
 
